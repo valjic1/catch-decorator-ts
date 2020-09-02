@@ -1,4 +1,4 @@
-# TS Catch Decorator
+# Catch Decorator TS
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Toicon-icon-fandom-catch.svg/1200px-Toicon-icon-fandom-catch.svg.png" height="90" width="90">
 
@@ -9,7 +9,7 @@ Typescript decorator for handling your exceptions elegantly.
 ## Install
 
 ```bash
-npm install ts-catch-decorator
+npm install catch-decorator-ts
 ```
 
 If you use Typescript enable `experimentalDecorators` flag inside your tsconfig file, otherwise for babel use one of the following plugins [babel-plugin-transform-decorators-legacy](https://github.com/loganfsmyth/babel-plugin-transform-decorators-legacy) or [@babel/plugin-proposal-decorators](https://github.com/babel/babel/tree/master/packages/babel-plugin-proposal-decorators).

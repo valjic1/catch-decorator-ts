@@ -1,9 +1,9 @@
 {
-  "name": "ts-catch-decorator",
+  "name": "catch-decorator-ts",
   "description": "Handle your exceptions elegantly",
   "author": "Velid Aljic <velid.aljic@gmail.com>",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "module": "dist/index.es.js",
@@ -51,10 +51,10 @@
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.9.7"
   },
-  "homepage": "https://github.com/valjic1/ts-catch-decorator",
+  "homepage": "https://github.com/valjic1/catch-decorator-ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/valjic1/ts-catch-decorator.git"
+    "url": "https://github.com/valjic1/catch-decorator-ts.git"
   },
   "keywords": [
     "catch",
