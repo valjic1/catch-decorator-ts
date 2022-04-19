@@ -3,21 +3,21 @@ function isPromise(object: any): object is Promise<any> {
 }
 
 function isFunction(func: any): func is Function {
-  return typeof func === "function" || func instanceof Function;
+  return typeof func === 'function' || func instanceof Function;
 }
 
 export type Handler = (err: any, context: any, ...args: any) => any;
 
 const Factory = (
   ErrorClassConstructor: Function | Handler,
-  handler?: Handler
+  handler?: Handler,
 ) => {
   return (target: any, key: string, descriptor: PropertyDescriptor) => {
     const { value } = descriptor;
 
     if (!handler) {
       handler = ErrorClassConstructor as Handler;
-      ErrorClassConstructor = (undefined as unknown) as any;
+      ErrorClassConstructor = undefined as unknown as any;
     }
 
     descriptor.value = async function (...args: any[]) {

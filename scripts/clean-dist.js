@@ -1,3 +1,3 @@
-const shell = require("shelljs");
+const shell = require('shelljs');
 
-shell.rm("-R", "dist/");
+shell.rm('-R', 'dist/');
