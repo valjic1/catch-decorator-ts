@@ -187,9 +187,3 @@ class UserController {
   }
 }
 ```
-
-<br />
-
-## Acknowledgment
-
-This library was influenced by [catch-decorator](https://www.npmjs.com/package/catch-decorator) and [catch-error-decorator](https://www.npmjs.com/package/catch-error-decorator). What it improves is that now it is possible to pass method's arguments to error handler as well.
