@@ -14,7 +14,6 @@
     "strictPropertyInitialization": false,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    "noStrictGenericChecks": true,
     "noUnusedParameters": false,
     "noUnusedLocals": true,
     "importHelpers": true,
@@ -23,7 +22,6 @@
     "forceConsistentCasingInFileNames": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
-    "suppressImplicitAnyIndexErrors": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true
   },

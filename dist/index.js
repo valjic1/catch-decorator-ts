@@ -32,7 +32,7 @@ var r = function (r, t) {
                 )
                   return [
                     2,
-                    t.call.apply(t, e.__spreadArrays([null, i, this], n)),
+                    t.call.apply(t, e.__spreadArray([null, i, this], n, !1)),
                   ];
                 throw i;
               case 5:

@@ -1,4 +1,4 @@
-export declare type Handler = (err: any, context: any, ...args: any) => any;
+export type Handler = (err: any, context: any, ...args: any) => any;
 export declare const Catch: (
   ErrorClassConstructor: Function,
   handler: Handler,
